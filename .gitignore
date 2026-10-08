@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+backend/backups/
+*.log
+.netlify/
+test-results/
+dist/
+.DS_Store

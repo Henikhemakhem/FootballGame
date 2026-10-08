@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: football-games-api
+    runtime: node
+    plan: starter
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    disk:
+      name: football-sqlite
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: DATABASE_PATH
+        value: /var/data/football-draft.sqlite
+      - key: FOOTBALL_API_KEY
+        sync: false
+      - key: FOOTBALL_API_URL
+        value: https://v3.football.api-sports.io
+      - key: FOOTBALL_API_LEAGUE
+        value: "39"
+      - key: FOOTBALL_API_SEASON
+        value: "2024"
+      - key: FOOTBALL_SYNC_MAX_PAGES
+        value: "3"

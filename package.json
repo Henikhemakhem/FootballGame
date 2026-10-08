@@ -1,0 +1,19 @@
+{
+  "name": "football-draft",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.0.0 <25" },
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build --workspace frontend",
+    "build:netlify": "node scripts/buildNetlify.mjs",
+    "start": "npm run start --workspace backend",
+    "test": "npm run test --workspace backend",
+    "check": "node scripts/check.mjs",
+    "sync:players": "node backend/src/syncPlayers.js",
+    "sync:careers": "node backend/src/syncPlayers.js --careers-only",
+    "db:backup": "node backend/src/backupDatabase.js"
+  }
+}

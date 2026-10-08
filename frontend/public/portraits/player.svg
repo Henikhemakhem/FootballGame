@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 480" fill="none">
+  <defs><linearGradient id="shirt" x1="250" y1="290" x2="250" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#226650"/><stop offset="1" stop-color="#143c32"/></linearGradient><linearGradient id="face" x1="194" y1="115" x2="301" y2="255" gradientUnits="userSpaceOnUse"><stop stop-color="#dba988"/><stop offset="1" stop-color="#b97e60"/></linearGradient></defs>
+  <ellipse cx="250" cy="452" rx="180" ry="22" fill="#163c32" opacity=".12"/>
+  <path d="M160 303c-22 7-53 43-67 82l-22 76h358l-24-79c-13-41-43-70-65-79l-57-24h-68z" fill="url(#shirt)"/>
+  <path d="m163 302-12 164M337 302l12 164" stroke="#7da899" stroke-width="3" opacity=".35"/>
+  <path d="M222 247v41l28 24 29-24v-41" fill="#ba8062"/>
+  <path d="m217 277 33 24 33-24 20 10-16 38-37-12-37 12-16-38z" fill="#dce7bd"/>
+  <path d="m228 284 22 17 23-17" stroke="#b8c891" stroke-width="3"/>
+  <ellipse cx="192" cy="184" rx="12" ry="24" fill="#c99474"/><ellipse cx="308" cy="184" rx="12" ry="24" fill="#b97e60"/>
+  <path d="M191 153c0-55 31-73 59-73s59 20 59 74l-6 60c-4 29-31 56-53 56-23 0-49-27-53-56z" fill="url(#face)"/>
+  <path d="M190 168c-14-21-8-60 3-78 17-25 39-32 64-29 39 2 59 23 59 64l-10 39-5-42c-15 4-51-8-65-18-8 13-24 20-40 22z" fill="#202925"/>
+  <path d="m210 166 19-3m42 0 19 3" stroke="#35392f" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="221" cy="178" rx="4" ry="5" fill="#28382f"/><ellipse cx="280" cy="178" rx="4" ry="5" fill="#28382f"/>
+  <path d="m249 183-5 21 9 2" stroke="#ab7055" stroke-width="3" stroke-linecap="round"/>
+  <path d="M230 225c12 7 25 7 39 0" stroke="#814f3e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M199 213c9 11 17 20 20 31 20 19 43 24 64 3l18-34-13 12c-21 13-53 13-77-1z" fill="#594737" opacity=".4"/>
+  <path d="m127 332 26 8m195 0 26-8" stroke="#d6ed8b" stroke-width="9"/>
+  <circle cx="310" cy="353" r="15" fill="#d6ed8b"/><path d="m310 343 7 6-3 9h-8l-3-9z" fill="#226650"/>
+  <path d="M231 352h40v11l-23 57h-15l23-55h-25z" fill="#f1f2de" opacity=".9"/>
+</svg>
