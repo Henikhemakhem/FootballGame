@@ -1,7 +1,1 @@
-export class GameError extends Error {
-  constructor(status, code, message) {
-    super(message);
-    this.status = status;
-    this.code = code;
-  }
-}
+export * from '../../../frontend/src/games/gameError.js';

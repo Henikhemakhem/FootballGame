@@ -1,23 +1,18 @@
-export async function request(path, body) {
+import { createBrowserApplication } from './games/browserApplication.js';
+let application;
+async function loadApplication() {
   let response;
-  try {
-    response = await fetch(`/api${path}`, {
-      ...(body === undefined ? {} : { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
-      signal: AbortSignal.timeout(path === '/player-career/start' ? 60000 : path === '/games' ? 45000 : 15000),
-    });
-  } catch {
-    throw new Error('Connexion au serveur impossible. Vérifiez qu’il est démarré, puis réessayez.');
-  }
-  let data;
-  try { data = await response.json(); }
-  catch { throw new Error('Le serveur a envoyé une réponse inattendue.'); }
-  if (!response.ok) {
-    const error = new Error(data.error?.message || 'La demande a échoué.');
-    error.status = response.status;
-    error.code = data.error?.code;
-    throw error;
-  }
-  return data;
+  try { response = await fetch('/players.json', { signal: AbortSignal.timeout(15000) }); }
+  catch { throw new Error('Impossible de charger les joueurs. Vérifiez votre connexion puis réessayez.'); }
+  if (!response.ok) throw new Error('Le catalogue de joueurs est indisponible.');
+  const data = await response.json();
+  let storage;
+  try { storage = globalThis.localStorage; } catch { storage = null; }
+  return createBrowserApplication(data, storage);
+}
+export async function request(path, body) {
+  if (!application) application = loadApplication().catch(error => { application = null; throw error; });
+  return (await application)(path, body);
 }
 
 const storageKey = 'football-draft:last-game';

@@ -5,5 +5,5 @@
 [build.environment]
   NODE_VERSION = "24"
 
-# Renseigner BACKEND_URL=https://<votre-service>.onrender.com dans Netlify.
-# Le build génère les règles /api/* avec cette URL ; aucune clé Football API ici.
+# Facultatif : FOOTBALL_API_KEY avec portée Builds uniquement pour actualiser les joueurs.
+# Aucune clé VITE_*, aucun proxy, aucun backend ni Function à déployer.

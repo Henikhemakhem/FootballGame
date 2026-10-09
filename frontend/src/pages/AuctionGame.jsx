@@ -65,7 +65,7 @@ export default function AuctionGame() {
       if (data.lastRound && data.lastRound.round !== game.lastRound?.round) setRoundResult(data.lastRound);
     } catch (err) {
       setError(err.message);
-      // Une décision concurrente ou une réponse perdue exige de relire l'état du serveur.
+      // Relire la sauvegarde si une autre fenêtre a déjà modifié la partie.
       try { setGame(await request(`/games/${game.id}`)); } catch { /* Afficher l'erreur initiale. */ }
     } finally { lock.current = false; setBusy(false); }
   }
@@ -99,12 +99,12 @@ export default function AuctionGame() {
         <div className="game-title"><div><span className="section-kicker">{game.legacy ? 'PARTIE CONSERVÉE' : game.status === 'finished' ? 'LES JEUX SONT FAITS' : 'LES ENCHÈRES SONT OUVERTES'}</span><h1>{game.legacy ? 'Votre ancienne sélection.' : game.status === 'finished' ? 'Une draft, deux équipes.' : 'À vous de surenchérir.'}</h1><span className="subtext">{game.legacy ? 'Anciennes règles · Lecture seule' : game.status === 'finished' ? 'Découvrez votre sélection finale.' : `Manche ${game.round} / 6 · ${positions[game.auction.position]} · 6 recrues par équipe`}</span></div><button className="new-game" disabled={busy} onClick={() => game.status === 'active' && !game.legacy ? restartDialog.current.showModal() : restart()}><RotateCcw size={12} /> Nouvelle partie</button></div>
         {game.legacy ? <><section className="legacy-notice"><h2>Le jeu passe aux enchères</h2><p>Cette partie a été créée avec les anciennes règles. Vos équipes et budgets sont conservés. Lancez une nouvelle partie pour jouer les six manches.</p><button className="button primary" onClick={restart}>Créer une nouvelle partie <ArrowRight size={18} /></button></section><div className="finished-teams"><TeamPanel game={game} owner={1} /><TeamPanel game={game} owner={2} /></div></> : game.status === 'active' || roundResult ? <>
           <div className="game-grid"><TeamPanel game={game} owner={1} />{roundResult ? <AuctionSummary game={game} result={roundResult} /> : <AuctionCard key={`${game.id}:${game.version}`} game={game} busy={busy} onBid={amount => decide('bid', amount)} onPass={() => decide('pass')} />}<TeamPanel game={game} owner={2} /></div>
-          <div className="action-log" aria-live="polite"><Info size={14} /><span>{busy ? 'Le serveur valide votre décision…' : game.lastAction ? `${game[`player${game.lastAction.owner}Name`]} ${game.lastAction.action === 'bid' ? `a proposé $${game.lastAction.amount} pour` : 'a passé pour'} ${game.lastAction.name}.` : `${game[`player${game.auction.firstBidder}Name`]} ouvre les enchères. Proposez un prix ou passez.`}</span></div>
+          <div className="action-log" aria-live="polite"><Info size={14} /><span>{busy ? 'Votre décision est enregistrée…' : game.lastAction ? `${game[`player${game.lastAction.owner}Name`]} ${game.lastAction.action === 'bid' ? `a proposé $${game.lastAction.amount} pour` : 'a passé pour'} ${game.lastAction.name}.` : `${game[`player${game.auction.firstBidder}Name`]} ouvre les enchères. Proposez un prix ou passez.`}</span></div>
           {!roundResult && game.lastRound && <p className="previous-round"><strong>Manche {game.lastRound.round} :</strong> {game[`player${game.lastRound.winner}Name`]} a reçu {game.lastRound.soldPlayer.name} pour ${game.lastRound.finalPrice} ; {game[`player${game.lastRound.loser}Name`]} a reçu {game.lastRound.freePlayer.name} gratuitement.</p>}
         </> : <><Results game={game} onRestart={restart} /><div className="finished-teams"><TeamPanel game={game} owner={1} /><TeamPanel game={game} owner={2} /></div></>}
       </>}
     </main>
-    <footer><span>FOOTBALL DRAFT</span><span>Deux managers. Une seule victoire.</span><span>{mode === 'mock' ? 'ÉDITION DÉMO / V1' : mode === 'api' ? 'API FOOTBALL / V1' : mode === 'sqlite' ? 'CATALOGUE LOCAL / V1' : 'ÉDITION V1'}</span></footer>
+    <footer><span>FOOTBALL DRAFT</span><span>Deux managers. Une seule victoire.</span><span>{mode === 'api-static' ? 'JOUEURS API FOOTBALL / V1' : 'ÉDITION V1'}</span></footer>
     <dialog className="restart-dialog" ref={restartDialog}><h2>Une nouvelle draft ?</h2><p>Vous reviendrez à l’écran de création. La partie en cours ne sera plus reprise automatiquement.</p><div className="dialog-actions"><button className="button reject" onClick={() => restartDialog.current.close()}>Continuer</button><button className="button primary" onClick={restart}>Nouvelle partie <ArrowRight size={16} /></button></div></dialog>
   </div>;
 }

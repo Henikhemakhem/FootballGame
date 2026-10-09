@@ -6,14 +6,18 @@
   "engines": { "node": ">=24.0.0 <25" },
   "workspaces": ["backend", "frontend"],
   "scripts": {
-    "dev": "node scripts/dev.mjs",
+    "dev": "npm run dev --workspace frontend",
+    "dev:legacy": "node scripts/dev.mjs",
     "build": "npm run build --workspace frontend",
     "build:netlify": "node scripts/buildNetlify.mjs",
-    "start": "npm run start --workspace backend",
+    "start": "npm run preview --workspace frontend",
+    "start:backend": "npm run start --workspace backend",
     "test": "npm run test --workspace backend",
     "check": "node scripts/check.mjs",
     "sync:players": "node backend/src/syncPlayers.js",
     "sync:careers": "node backend/src/syncPlayers.js --careers-only",
-    "db:backup": "node backend/src/backupDatabase.js"
+    "db:backup": "node backend/src/backupDatabase.js",
+    "export:catalogue": "node scripts/exportCatalogue.mjs",
+    "sync:catalogue": "node scripts/syncCatalogue.mjs"
   }
 }

@@ -1,10 +1,11 @@
+# Ancien backend facultatif. Le frontend statique Netlify n'utilise pas ce service.
 services:
   - type: web
     name: football-games-api
     runtime: node
     plan: starter
     buildCommand: npm ci
-    startCommand: npm start
+    startCommand: npm run start:backend
     healthCheckPath: /api/health
     disk:
       name: football-sqlite

@@ -1,0 +1,1310 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-08T15:29:43.522Z",
+  "league": 39,
+  "season": 2024,
+  "players": [
+    {
+      "id": "api-306",
+      "apiPlayerId": "306",
+      "name": "Mohamed Salah Hamed Mahrous Ghaly",
+      "photo": "https://media.api-sports.io/football/players/306.png",
+      "team": "Liverpool",
+      "nationality": "Egypt",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-186",
+      "apiPlayerId": "186",
+      "name": "Heung-Min Son",
+      "photo": "https://media.api-sports.io/football/players/186.png",
+      "team": "Tottenham",
+      "nationality": "Korea Republic",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-290",
+      "apiPlayerId": "290",
+      "name": "Virgil van Dijk",
+      "photo": "https://media.api-sports.io/football/players/290.png",
+      "team": "Liverpool",
+      "nationality": "Netherlands",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-567",
+      "apiPlayerId": "567",
+      "name": "Rúben dos Santos Gato Alves Dias",
+      "photo": "https://media.api-sports.io/football/players/567.png",
+      "team": "Manchester City",
+      "nationality": "Portugal",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-280",
+      "apiPlayerId": "280",
+      "name": "Alisson Ramsés Becker",
+      "photo": "https://media.api-sports.io/football/players/280.png",
+      "team": "Liverpool",
+      "nationality": "Brazil",
+      "position": "Goalkeeper",
+      "source": "api"
+    },
+    {
+      "id": "api-5",
+      "apiPlayerId": "5",
+      "name": "Manuel Obafemi Akanji",
+      "photo": "https://media.api-sports.io/football/players/5.png",
+      "team": "Manchester City",
+      "nationality": "Switzerland",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-14",
+      "apiPlayerId": "14",
+      "name": "Mahmoud Dahoud",
+      "photo": "https://media.api-sports.io/football/players/14.png",
+      "team": "Brighton",
+      "nationality": "Germany",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-18",
+      "apiPlayerId": "18",
+      "name": "Jadon Malik Sancho",
+      "photo": "https://media.api-sports.io/football/players/18.png",
+      "team": "Chelsea",
+      "nationality": "England",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-23",
+      "apiPlayerId": "23",
+      "name": "Sergio Gómez Martín",
+      "photo": "https://media.api-sports.io/football/players/23.png",
+      "team": "Manchester City",
+      "nationality": "Spain",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-44",
+      "apiPlayerId": "44",
+      "name": "Rodrigo Hernández Cascante",
+      "photo": "https://media.api-sports.io/football/players/44.png",
+      "team": "Manchester City",
+      "nationality": "Spain",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-49",
+      "apiPlayerId": "49",
+      "name": "Thomas Teye Partey",
+      "photo": "https://media.api-sports.io/football/players/49.png",
+      "team": "Arsenal",
+      "nationality": "Ghana",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-74",
+      "apiPlayerId": "74",
+      "name": "Sofyan Amrabat",
+      "photo": "https://media.api-sports.io/football/players/74.png",
+      "team": "Manchester United",
+      "nationality": "Morocco",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-83",
+      "apiPlayerId": "83",
+      "name": "Arnaut Danjuma Adam Groeneveld",
+      "photo": "https://media.api-sports.io/football/players/83.png",
+      "team": "Everton",
+      "nationality": "Netherlands",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-95",
+      "apiPlayerId": "95",
+      "name": "Benoît Ntambue Badiashile Mukinayi Baya",
+      "photo": "https://media.api-sports.io/football/players/95.png",
+      "team": "Chelsea",
+      "nationality": "France",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-105",
+      "apiPlayerId": "105",
+      "name": "Fodé Ballo-Touré",
+      "photo": "https://media.api-sports.io/football/players/105.png",
+      "team": "Fulham",
+      "nationality": "Senegal",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-130",
+      "apiPlayerId": "130",
+      "name": "Nélson Cabral Semedo",
+      "photo": "https://media.api-sports.io/football/players/130.png",
+      "team": "Wolves",
+      "nationality": "Portugal",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-131",
+      "apiPlayerId": "131",
+      "name": "Jorge Cuenca Barreno",
+      "photo": "https://media.api-sports.io/football/players/131.png",
+      "team": "Fulham",
+      "nationality": "Spain",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-133",
+      "apiPlayerId": "133",
+      "name": "Clément Nicolas Laurent Lenglet",
+      "photo": "https://media.api-sports.io/football/players/133.png",
+      "team": "Aston Villa",
+      "nationality": "France",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-138",
+      "apiPlayerId": "138",
+      "name": "Jean-Clair Dimitri Roger Todibo",
+      "photo": "https://media.api-sports.io/football/players/138.png",
+      "team": "West Ham",
+      "nationality": "France",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-147",
+      "apiPlayerId": "147",
+      "name": "Philippe Coutinho Correia",
+      "photo": "https://media.api-sports.io/football/players/147.png",
+      "team": "Aston Villa",
+      "nationality": "Brazil",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-161",
+      "apiPlayerId": "161",
+      "name": "Alfie Malik Whiteman",
+      "photo": "https://media.api-sports.io/football/players/161.png",
+      "team": "Tottenham",
+      "nationality": "England",
+      "position": "Goalkeeper",
+      "source": "api"
+    },
+    {
+      "id": "api-164",
+      "apiPlayerId": "164",
+      "name": "Benjamin Thomas Davies",
+      "photo": "https://media.api-sports.io/football/players/164.png",
+      "team": "Tottenham",
+      "nationality": "Wales",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-169",
+      "apiPlayerId": "169",
+      "name": "Kieran John Trippier",
+      "photo": "https://media.api-sports.io/football/players/169.png",
+      "team": "Newcastle",
+      "nationality": "England",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-171",
+      "apiPlayerId": "171",
+      "name": "Kyle Leonardus Walker-Peters",
+      "photo": "https://media.api-sports.io/football/players/171.png",
+      "team": "Southampton",
+      "nationality": "England",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-172",
+      "apiPlayerId": "172",
+      "name": "Bamidele Jermaine Alli",
+      "photo": "https://media.api-sports.io/football/players/172.png",
+      "team": "Everton",
+      "nationality": "England",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-174",
+      "apiPlayerId": "174",
+      "name": "Christian Dannemann Eriksen",
+      "photo": "https://media.api-sports.io/football/players/174.png",
+      "team": "Manchester United",
+      "nationality": "Denmark",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-180",
+      "apiPlayerId": "180",
+      "name": "Oliver William Skipp",
+      "photo": "https://media.api-sports.io/football/players/180.png",
+      "team": "Leicester",
+      "nationality": "England",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-182",
+      "apiPlayerId": "182",
+      "name": "Harry Billy Winks",
+      "photo": "https://media.api-sports.io/football/players/182.png",
+      "team": "Leicester",
+      "nationality": "England",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-190",
+      "apiPlayerId": "190",
+      "name": "Cédric Ricardo Alves Soares",
+      "photo": "https://media.api-sports.io/football/players/190.png",
+      "team": "Arsenal",
+      "nationality": "Portugal",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-247",
+      "apiPlayerId": "247",
+      "name": "Cody Mathès Gakpo",
+      "photo": "https://media.api-sports.io/football/players/247.png",
+      "team": "Liverpool",
+      "nationality": "Netherlands",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-249",
+      "apiPlayerId": "249",
+      "name": "Donyell Malen",
+      "photo": "https://media.api-sports.io/football/players/249.png",
+      "team": "Aston Villa",
+      "nationality": "Netherlands",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-253",
+      "apiPlayerId": "253",
+      "name": "Alphonse Francis Areola",
+      "photo": "https://media.api-sports.io/football/players/253.png",
+      "team": "West Ham",
+      "nationality": "France",
+      "position": "Goalkeeper",
+      "source": "api"
+    },
+    {
+      "id": "api-259",
+      "apiPlayerId": "259",
+      "name": "Thiago Emiliano da Silva",
+      "photo": "https://media.api-sports.io/football/players/259.png",
+      "team": "Chelsea",
+      "nationality": "Brazil",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-269",
+      "apiPlayerId": "269",
+      "name": "Christopher Alan Nkunku",
+      "photo": "https://media.api-sports.io/football/players/269.png",
+      "team": "Chelsea",
+      "nationality": "France",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-277",
+      "apiPlayerId": "277",
+      "name": "Moussa Diaby",
+      "photo": "https://media.api-sports.io/football/players/277.png",
+      "team": "Aston Villa",
+      "nationality": "France",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-279",
+      "apiPlayerId": "279",
+      "name": "Loïc Junior Mbe Soh",
+      "photo": "https://media.api-sports.io/football/players/279.png",
+      "team": "Nottingham Forest",
+      "nationality": "France",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-281",
+      "apiPlayerId": "281",
+      "name": "Caoimhín Odhrán Kelleher",
+      "photo": "https://media.api-sports.io/football/players/281.png",
+      "team": "Liverpool",
+      "nationality": "Republic of Ireland",
+      "position": "Goalkeeper",
+      "source": "api"
+    },
+    {
+      "id": "api-283",
+      "apiPlayerId": "283",
+      "name": "Trent John Alexander-Arnold",
+      "photo": "https://media.api-sports.io/football/players/283.png",
+      "team": "Liverpool",
+      "nationality": "England",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-284",
+      "apiPlayerId": "284",
+      "name": "Joseph Dave Gomez",
+      "photo": "https://media.api-sports.io/football/players/284.png",
+      "team": "Liverpool",
+      "nationality": "England",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-285",
+      "apiPlayerId": "285",
+      "name": "Ki-Jana Delano Hoever",
+      "photo": "https://media.api-sports.io/football/players/285.png",
+      "team": "Wolves",
+      "nationality": "Netherlands",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-286",
+      "apiPlayerId": "286",
+      "name": "Job Joël André Matip",
+      "photo": "https://media.api-sports.io/football/players/286.png",
+      "team": "Liverpool",
+      "nationality": "Cameroon",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-289",
+      "apiPlayerId": "289",
+      "name": "Andrew Henry Robertson",
+      "photo": "https://media.api-sports.io/football/players/289.png",
+      "team": "Liverpool",
+      "nationality": "Scotland",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-293",
+      "apiPlayerId": "293",
+      "name": "Curtis Julian Jones",
+      "photo": "https://media.api-sports.io/football/players/293.png",
+      "team": "Liverpool",
+      "nationality": "England",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-295",
+      "apiPlayerId": "295",
+      "name": "Adam David Lallana",
+      "photo": "https://media.api-sports.io/football/players/295.png",
+      "team": "Southampton",
+      "nationality": "England",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-296",
+      "apiPlayerId": "296",
+      "name": "James Philip Milner",
+      "photo": "https://media.api-sports.io/football/players/296.png",
+      "team": "Brighton",
+      "nationality": "England",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-305",
+      "apiPlayerId": "305",
+      "name": "Divock Okoth Origi",
+      "photo": "https://media.api-sports.io/football/players/305.png",
+      "team": "Nottingham Forest",
+      "nationality": "Belgium",
+      "position": "Attacker",
+      "source": "api"
+    },
+    {
+      "id": "api-371",
+      "apiPlayerId": "371",
+      "name": "Felipe Augusto de Almeida Monteiro",
+      "photo": "https://media.api-sports.io/football/players/371.png",
+      "team": "Nottingham Forest",
+      "nationality": "Brazil",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-507",
+      "apiPlayerId": "507",
+      "name": "Thiago Alcântara do Nascimento",
+      "photo": "https://media.api-sports.io/football/players/507.png",
+      "team": "Liverpool",
+      "nationality": "Spain",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-526",
+      "apiPlayerId": "526",
+      "name": "André Onana Onana",
+      "photo": "https://media.api-sports.io/football/players/526.png",
+      "team": "Manchester United",
+      "nationality": "Cameroon",
+      "position": "Goalkeeper",
+      "source": "api"
+    },
+    {
+      "id": "api-532",
+      "apiPlayerId": "532",
+      "name": "Matthijs de Ligt",
+      "photo": "https://media.api-sports.io/football/players/532.png",
+      "team": "Manchester United",
+      "nationality": "Netherlands",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-537",
+      "apiPlayerId": "537",
+      "name": "Joël Ivo Veltman",
+      "photo": "https://media.api-sports.io/football/players/537.png",
+      "team": "Brighton",
+      "nationality": "Netherlands",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-542",
+      "apiPlayerId": "542",
+      "name": "Ryan Jiro Gravenberch",
+      "photo": "https://media.api-sports.io/football/players/542.png",
+      "team": "Liverpool",
+      "nationality": "Netherlands",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-545",
+      "apiPlayerId": "545",
+      "name": "Noussair Mazraoui",
+      "photo": "https://media.api-sports.io/football/players/545.png",
+      "team": "Manchester United",
+      "nationality": "Morocco",
+      "position": "Defender",
+      "source": "api"
+    },
+    {
+      "id": "api-547",
+      "apiPlayerId": "547",
+      "name": "Donny van de Beek",
+      "photo": "https://media.api-sports.io/football/players/547.png",
+      "team": "Manchester United",
+      "nationality": "Netherlands",
+      "position": "Midfielder",
+      "source": "api"
+    },
+    {
+      "id": "api-557",
+      "apiPlayerId": "557",
+      "name": "Odysseas Vlachodimos",
+      "photo": "https://media.api-sports.io/football/players/557.png",
+      "team": "Nottingham Forest",
+      "nationality": "Greece",
+      "position": "Goalkeeper",
+      "source": "api"
+    },
+    {
+      "id": "api-616",
+      "apiPlayerId": "616",
+      "name": "Arijanet Murić",
+      "photo": "https://media.api-sports.io/football/players/616.png",
+      "team": "Ipswich",
+      "nationality": "Kosovo",
+      "position": "Goalkeeper",
+      "source": "api"
+    }
+  ],
+  "careers": [
+    {
+      "id": "api-186",
+      "apiPlayerId": "186",
+      "name": "Heung-Min Son",
+      "photo": "https://media.api-sports.io/football/players/186.png",
+      "team": "Tottenham",
+      "nationality": "Korea Republic",
+      "position": "Attacker",
+      "source": "api",
+      "career": [
+        {
+          "club": "Hamburger SV",
+          "from": null,
+          "to": "2013-07-01"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "from": "2013-07-01",
+          "to": "2015-08-28"
+        },
+        {
+          "club": "Tottenham",
+          "from": "2015-08-28",
+          "to": "2025-08-06"
+        },
+        {
+          "club": "Los Angeles FC",
+          "from": "2025-08-06",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-290",
+      "apiPlayerId": "290",
+      "name": "Virgil van Dijk",
+      "photo": "https://media.api-sports.io/football/players/290.png",
+      "team": "Liverpool",
+      "nationality": "Netherlands",
+      "position": "Defender",
+      "source": "api",
+      "career": [
+        {
+          "club": "Groningen",
+          "from": null,
+          "to": "2013-07-01"
+        },
+        {
+          "club": "Celtic",
+          "from": "2013-07-01",
+          "to": "2015-09-01"
+        },
+        {
+          "club": "Southampton",
+          "from": "2015-09-01",
+          "to": "2018-01-01"
+        },
+        {
+          "club": "Liverpool",
+          "from": "2018-01-01",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-280",
+      "apiPlayerId": "280",
+      "name": "Alisson Ramsés Becker",
+      "photo": "https://media.api-sports.io/football/players/280.png",
+      "team": "Liverpool",
+      "nationality": "Brazil",
+      "position": "Goalkeeper",
+      "source": "api",
+      "career": [
+        {
+          "club": "Internacional",
+          "from": null,
+          "to": "2016-07-06"
+        },
+        {
+          "club": "AS Roma",
+          "from": "2016-07-06",
+          "to": "2018-07-19"
+        },
+        {
+          "club": "Liverpool",
+          "from": "2018-07-19",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-44",
+      "apiPlayerId": "44",
+      "name": "Rodrigo Hernández Cascante",
+      "photo": "https://media.api-sports.io/football/players/44.png",
+      "team": "Manchester City",
+      "nationality": "Spain",
+      "position": "Midfielder",
+      "source": "api",
+      "career": [
+        {
+          "club": "Villarreal",
+          "from": null,
+          "to": "2018-07-02"
+        },
+        {
+          "club": "Atletico Madrid",
+          "from": "2018-07-02",
+          "to": "2019-07-04"
+        },
+        {
+          "club": "Manchester City",
+          "from": "2019-07-04",
+          "to": "2026-08-17"
+        },
+        {
+          "club": "Barcelona",
+          "from": "2026-08-17",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-95",
+      "apiPlayerId": "95",
+      "name": "Benoît Ntambue Badiashile Mukinayi Baya",
+      "photo": "https://media.api-sports.io/football/players/95.png",
+      "team": "Chelsea",
+      "nationality": "France",
+      "position": "Defender",
+      "source": "api",
+      "career": [
+        {
+          "club": "Monaco",
+          "from": null,
+          "to": "2023-01-05"
+        },
+        {
+          "club": "Chelsea",
+          "from": "2023-01-05",
+          "to": "2026-08-21"
+        },
+        {
+          "club": "Napoli",
+          "from": "2026-08-21",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-131",
+      "apiPlayerId": "131",
+      "name": "Jorge Cuenca Barreno",
+      "photo": "https://media.api-sports.io/football/players/131.png",
+      "team": "Fulham",
+      "nationality": "Spain",
+      "position": "Defender",
+      "source": "api",
+      "career": [
+        {
+          "club": "Alcorcon",
+          "from": null,
+          "to": "2017-07-18"
+        },
+        {
+          "club": "Barcelona",
+          "from": "2017-07-18",
+          "to": "2020-09-22"
+        },
+        {
+          "club": "Villarreal",
+          "from": "2020-09-22",
+          "to": "2020-09-23"
+        },
+        {
+          "club": "Almeria",
+          "from": "2020-09-23",
+          "to": "2021-07-01"
+        },
+        {
+          "club": "Villarreal",
+          "from": "2021-07-01",
+          "to": "2021-08-31"
+        },
+        {
+          "club": "Getafe",
+          "from": "2021-08-31",
+          "to": "2022-07-01"
+        },
+        {
+          "club": "Villarreal",
+          "from": "2022-07-01",
+          "to": "2024-08-03"
+        },
+        {
+          "club": "Fulham",
+          "from": "2024-08-03",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-171",
+      "apiPlayerId": "171",
+      "name": "Kyle Leonardus Walker-Peters",
+      "photo": "https://media.api-sports.io/football/players/171.png",
+      "team": "Southampton",
+      "nationality": "England",
+      "position": "Defender",
+      "source": "api",
+      "career": [
+        {
+          "club": "Tottenham",
+          "from": null,
+          "to": "2020-01-29"
+        },
+        {
+          "club": "Southampton",
+          "from": "2020-01-29",
+          "to": "2020-08-01"
+        },
+        {
+          "club": "Tottenham",
+          "from": "2020-08-01",
+          "to": "2020-08-11"
+        },
+        {
+          "club": "Southampton",
+          "from": "2020-08-11",
+          "to": "2025-07-20"
+        },
+        {
+          "club": "West Ham",
+          "from": "2025-07-20",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-180",
+      "apiPlayerId": "180",
+      "name": "Oliver William Skipp",
+      "photo": "https://media.api-sports.io/football/players/180.png",
+      "team": "Leicester",
+      "nationality": "England",
+      "position": "Midfielder",
+      "source": "api",
+      "career": [
+        {
+          "club": "Tottenham",
+          "from": null,
+          "to": "2020-08-17"
+        },
+        {
+          "club": "Norwich",
+          "from": "2020-08-17",
+          "to": "2021-07-01"
+        },
+        {
+          "club": "Tottenham",
+          "from": "2021-07-01",
+          "to": "2024-08-19"
+        },
+        {
+          "club": "Leicester",
+          "from": "2024-08-19",
+          "to": "2026-08-31"
+        },
+        {
+          "club": "Charlton",
+          "from": "2026-08-31",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-249",
+      "apiPlayerId": "249",
+      "name": "Donyell Malen",
+      "photo": "https://media.api-sports.io/football/players/249.png",
+      "team": "Aston Villa",
+      "nationality": "Netherlands",
+      "position": "Attacker",
+      "source": "api",
+      "career": [
+        {
+          "club": "Arsenal",
+          "from": null,
+          "to": "2017-08-31"
+        },
+        {
+          "club": "PSV Eindhoven",
+          "from": "2017-08-31",
+          "to": "2021-07-27"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "from": "2021-07-27",
+          "to": "2025-01-14"
+        },
+        {
+          "club": "Aston Villa",
+          "from": "2025-01-14",
+          "to": "2026-01-15"
+        },
+        {
+          "club": "AS Roma",
+          "from": "2026-01-15",
+          "to": "2026-06-29"
+        },
+        {
+          "club": "Aston Villa",
+          "from": "2026-06-29",
+          "to": "2026-06-30"
+        },
+        {
+          "club": "AS Roma",
+          "from": "2026-06-30",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-277",
+      "apiPlayerId": "277",
+      "name": "Moussa Diaby",
+      "photo": "https://media.api-sports.io/football/players/277.png",
+      "team": "Aston Villa",
+      "nationality": "France",
+      "position": "Attacker",
+      "source": "api",
+      "career": [
+        {
+          "club": "Crotone",
+          "from": null,
+          "to": "2018-07-01"
+        },
+        {
+          "club": "Paris Saint Germain",
+          "from": "2018-07-01",
+          "to": "2019-07-01"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "from": "2019-07-01",
+          "to": "2023-07-23"
+        },
+        {
+          "club": "Aston Villa",
+          "from": "2023-07-23",
+          "to": "2024-07-24"
+        },
+        {
+          "club": "Al-Ittihad FC",
+          "from": "2024-07-24",
+          "to": "2026-08-31"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "from": "2026-08-31",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-289",
+      "apiPlayerId": "289",
+      "name": "Andrew Henry Robertson",
+      "photo": "https://media.api-sports.io/football/players/289.png",
+      "team": "Liverpool",
+      "nationality": "Scotland",
+      "position": "Defender",
+      "source": "api",
+      "career": [
+        {
+          "club": "Queen's Park",
+          "from": null,
+          "to": "2013-07-01"
+        },
+        {
+          "club": "Dundee Utd",
+          "from": "2013-07-01",
+          "to": "2014-07-29"
+        },
+        {
+          "club": "Hull City",
+          "from": "2014-07-29",
+          "to": "2017-07-21"
+        },
+        {
+          "club": "Liverpool",
+          "from": "2017-07-21",
+          "to": "2026-06-30"
+        },
+        {
+          "club": "Tottenham",
+          "from": "2026-06-30",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-295",
+      "apiPlayerId": "295",
+      "name": "Adam David Lallana",
+      "photo": "https://media.api-sports.io/football/players/295.png",
+      "team": "Southampton",
+      "nationality": "England",
+      "position": "Midfielder",
+      "source": "api",
+      "career": [
+        {
+          "club": "Southampton",
+          "from": null,
+          "to": "2014-07-01"
+        },
+        {
+          "club": "Liverpool",
+          "from": "2014-07-01",
+          "to": "2020-07-27"
+        },
+        {
+          "club": "Brighton",
+          "from": "2020-07-27",
+          "to": "2024-06-14"
+        },
+        {
+          "club": "Southampton",
+          "from": "2024-06-14",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-371",
+      "apiPlayerId": "371",
+      "name": "Felipe Augusto de Almeida Monteiro",
+      "photo": "https://media.api-sports.io/football/players/371.png",
+      "team": "Nottingham Forest",
+      "nationality": "Brazil",
+      "position": "Defender",
+      "source": "api",
+      "career": [
+        {
+          "club": "RB Bragantino",
+          "from": null,
+          "to": "2011-12-08"
+        },
+        {
+          "club": "Corinthians",
+          "from": "2011-12-08",
+          "to": "2016-07-01"
+        },
+        {
+          "club": "FC Porto",
+          "from": "2016-07-01",
+          "to": "2019-07-01"
+        },
+        {
+          "club": "Atletico Madrid",
+          "from": "2019-07-01",
+          "to": "2023-01-31"
+        },
+        {
+          "club": "Nottingham Forest",
+          "from": "2023-01-31",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-507",
+      "apiPlayerId": "507",
+      "name": "Thiago Alcântara do Nascimento",
+      "photo": "https://media.api-sports.io/football/players/507.png",
+      "team": "Liverpool",
+      "nationality": "Spain",
+      "position": "Midfielder",
+      "source": "api",
+      "career": [
+        {
+          "club": "Barcelona",
+          "from": null,
+          "to": "2013-07-15"
+        },
+        {
+          "club": "Bayern München",
+          "from": "2013-07-15",
+          "to": "2020-09-18"
+        },
+        {
+          "club": "Liverpool",
+          "from": "2020-09-18",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-526",
+      "apiPlayerId": "526",
+      "name": "André Onana Onana",
+      "photo": "https://media.api-sports.io/football/players/526.png",
+      "team": "Manchester United",
+      "nationality": "Cameroon",
+      "position": "Goalkeeper",
+      "source": "api",
+      "career": [
+        {
+          "club": "Ajax",
+          "from": null,
+          "to": "2022-07-01"
+        },
+        {
+          "club": "Inter",
+          "from": "2022-07-01",
+          "to": "2023-07-20"
+        },
+        {
+          "club": "Manchester United",
+          "from": "2023-07-20",
+          "to": "2025-09-11"
+        },
+        {
+          "club": "Trabzonspor",
+          "from": "2025-09-11",
+          "to": "2026-06-29"
+        },
+        {
+          "club": "Manchester United",
+          "from": "2026-06-29",
+          "to": "2026-07-02"
+        },
+        {
+          "club": "Trabzonspor",
+          "from": "2026-07-02",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-532",
+      "apiPlayerId": "532",
+      "name": "Matthijs de Ligt",
+      "photo": "https://media.api-sports.io/football/players/532.png",
+      "team": "Manchester United",
+      "nationality": "Netherlands",
+      "position": "Defender",
+      "source": "api",
+      "career": [
+        {
+          "club": "Ajax",
+          "from": null,
+          "to": "2019-07-18"
+        },
+        {
+          "club": "Juventus",
+          "from": "2019-07-18",
+          "to": "2022-07-19"
+        },
+        {
+          "club": "Bayern München",
+          "from": "2022-07-19",
+          "to": "2024-08-13"
+        },
+        {
+          "club": "Manchester United",
+          "from": "2024-08-13",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-542",
+      "apiPlayerId": "542",
+      "name": "Ryan Jiro Gravenberch",
+      "photo": "https://media.api-sports.io/football/players/542.png",
+      "team": "Liverpool",
+      "nationality": "Netherlands",
+      "position": "Midfielder",
+      "source": "api",
+      "career": [
+        {
+          "club": "Ajax",
+          "from": null,
+          "to": "2022-07-01"
+        },
+        {
+          "club": "Bayern München",
+          "from": "2022-07-01",
+          "to": "2023-09-01"
+        },
+        {
+          "club": "Liverpool",
+          "from": "2023-09-01",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-545",
+      "apiPlayerId": "545",
+      "name": "Noussair Mazraoui",
+      "photo": "https://media.api-sports.io/football/players/545.png",
+      "team": "Manchester United",
+      "nationality": "Morocco",
+      "position": "Defender",
+      "source": "api",
+      "career": [
+        {
+          "club": "Jong Ajax",
+          "from": null,
+          "to": "2017-07-01"
+        },
+        {
+          "club": "Ajax",
+          "from": "2017-07-01",
+          "to": "2022-07-01"
+        },
+        {
+          "club": "Bayern München",
+          "from": "2022-07-01",
+          "to": "2024-08-13"
+        },
+        {
+          "club": "Manchester United",
+          "from": "2024-08-13",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-547",
+      "apiPlayerId": "547",
+      "name": "Donny van de Beek",
+      "photo": "https://media.api-sports.io/football/players/547.png",
+      "team": "Manchester United",
+      "nationality": "Netherlands",
+      "position": "Midfielder",
+      "source": "api",
+      "career": [
+        {
+          "club": "Ajax",
+          "from": null,
+          "to": "2020-09-02"
+        },
+        {
+          "club": "Manchester United",
+          "from": "2020-09-02",
+          "to": "2022-01-31"
+        },
+        {
+          "club": "Everton",
+          "from": "2022-01-31",
+          "to": "2022-07-01"
+        },
+        {
+          "club": "Manchester United",
+          "from": "2022-07-01",
+          "to": "2024-01-01"
+        },
+        {
+          "club": "Eintracht Frankfurt",
+          "from": "2024-01-01",
+          "to": "2024-07-01"
+        },
+        {
+          "club": "Manchester United",
+          "from": "2024-07-01",
+          "to": "2024-07-11"
+        },
+        {
+          "club": "Girona",
+          "from": "2024-07-11",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    },
+    {
+      "id": "api-557",
+      "apiPlayerId": "557",
+      "name": "Odysseas Vlachodimos",
+      "photo": "https://media.api-sports.io/football/players/557.png",
+      "team": "Nottingham Forest",
+      "nationality": "Greece",
+      "position": "Goalkeeper",
+      "source": "api",
+      "career": [
+        {
+          "club": "VfB Stuttgart",
+          "from": null,
+          "to": "2016-01-26"
+        },
+        {
+          "club": "Panathinaikos",
+          "from": "2016-01-26",
+          "to": "2018-07-02"
+        },
+        {
+          "club": "Benfica",
+          "from": "2018-07-02",
+          "to": "2023-09-01"
+        },
+        {
+          "club": "Nottingham Forest",
+          "from": "2023-09-01",
+          "to": "2024-07-01"
+        },
+        {
+          "club": "Newcastle",
+          "from": "2024-07-01",
+          "to": "2025-08-12"
+        },
+        {
+          "club": "Sevilla",
+          "from": "2025-08-12",
+          "to": null
+        }
+      ],
+      "dataNote": "Historique API-Football ; les dates inconnues ne sont pas inventées."
+    }
+  ]
+}

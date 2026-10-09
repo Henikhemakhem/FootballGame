@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 5173, strictPort: true, proxy: { '/api': 'http://127.0.0.1:3001' },
+    port: 5173, strictPort: true,
     // Le serveur de développement ne doit servir ni les réponses privées ni SQLite.
     fs: { strict: true, deny: ['.env', '.env.*', '*.{crt,pem}', '**/.git/**', '**/backend/**'], allow: [
       fileURLToPath(new URL('./', import.meta.url)),

@@ -11,7 +11,6 @@ import { GameRepository } from '../src/models/gameRepository.js';
 import { GameService } from '../src/services/gameService.js';
 import { PlayerCareerRepository } from '../src/models/playerCareerRepository.js';
 import { PlayerCareerGameService } from '../src/services/playerCareerGameService.js';
-import { netlifyRedirects } from '../../scripts/netlifyConfig.mjs';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 function temporary(t) {
@@ -22,15 +21,6 @@ function temporary(t) {
   });
   return directory;
 }
-
-test('Netlify : proxy HTTPS vers le backend, sans identifiants ni adresse manquante', () => {
-  assert.equal(netlifyRedirects('https://football.onrender.com'),
-    '/api/* https://football.onrender.com/api/:splat 200!\n/* /index.html 200\n');
-  for (const value of [undefined,'','http://localhost:3001','https://user:password@example.com','https://example.com/api',
-    'https://example.com?key=secret','https://example.com/#fragment','https://example.com\n/api/* attacker']) {
-    assert.throws(() => netlifyRedirects(value));
-  }
-});
 
 test('sauvegarde WAL : parties et catalogue préservés, verrou de copie libéré, aucun fichier écrasé', async t => {
   const directory = temporary(t);

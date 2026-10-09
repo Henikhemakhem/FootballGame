@@ -12,5 +12,6 @@ function check(dir) {
   }
 }
 check('backend/src');
+check('frontend/src/games');
 check('scripts');
 console.log('Syntaxe JavaScript vérifiée.');
